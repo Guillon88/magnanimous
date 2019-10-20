@@ -1,0 +1,142 @@
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.navbar, #country  {
+    text-transform: uppercase;
+}
+.container {
+    max-width: 95%;
+}
+.news {
+    padding: 0.25rem 0.4rem;
+    font-size: 0.875rem;
+    line-height: 0.5;
+    border-radius: 0.2rem;
+    background-color: green;
+    color: white;
+    max-width: 60px;
+}
+.activity {
+    padding: 0.25rem 0.4rem;
+    font-size: 0.875rem;
+    line-height: 0.5;
+    border-radius: 0.2rem;
+    background-color: blue;
+    color: white;
+    max-width: 80px;
+}
+@import url(//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css);
+
+.detailBox {
+    width:95%;
+    border:1px solid #bbb;
+    margin:auto;
+
+}
+.titleBox {
+    background-color:#fdfdfd;
+    padding:10px;
+}
+.titleBox label{
+  color:#444;
+  margin:0;
+  display:inline-block;
+}
+
+.commentBox {
+    padding:10px;
+    border-top:1px dotted #bbb;
+}
+.commentBox .form-group:first-child, .actionBox .form-group:first-child {
+    width:80%;
+}
+.commentBox .form-group:nth-child(2), .actionBox .form-group:nth-child(2) {
+    width:18%;
+}
+.actionBox .form-group * {
+
+    font-size: 100%;
+    width:100%;
+}
+.taskDescription {
+    margin-top:10px 0;
+}
+.commentList {
+    padding:0;
+    list-style:none;
+    max-height:800px;
+    overflow:auto;
+}
+.commentList li {
+    margin:0;
+    margin-top:10px;
+}
+.commentList li > div {
+    display:table-cell;
+}
+.commenterImage {
+    width:50px;
+    margin-right:5px;
+    height:110%;
+    float:left;
+}
+.commenterImage img {
+    width:100%;
+    border-radius:50%;
+}
+.commentText p {
+    font-size: 130%;
+    margin:0;
+}
+.sub-text {
+    color:#aaa;
+    font-family:verdana;
+    font-size:11px;
+}
+
+#zone_filter{
+    
+    display: inline-block !important; background-color:#CC0000; 
+    border: 0em;
+    color: white;
+    text-transform: uppercase;
+    margin: 2%;
+    max-width: 60% !important;
+}
+.actionBox {
+    border-top:1px dotted #bbb;
+    padding:10px;
+}
+.footer i {
+    font-size: 150% !important;
+}
+.custom-input-file:hover .uploadPhoto { display: block; }
+@media screen and (min-width: 768px)
+{
+    .hidden-after-768, .camera
+    { 
+      display: none; 
+    }
+
+    .footer_menu{
+        display: none; 
+    }
+}
+
+@media screen and (max-width:  767px)
+{
+ 
+    .hidden-before-767
+    { 
+      display: none; 
+    }
+
+}
+.hm-gradient {
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+.navbar .dropdown-menu a:hover {
+    color: #616161 !important;
+}
+.darken-grey-text {
+    color: #2E2E2E;
+}
